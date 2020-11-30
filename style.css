@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  background-image: url(lavander-field.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo-container{
+ display: flex;
+ color:white;
+ font-size: 2.3rem; 
+ }
+
+.user{
+  color:white;
+  display: flex;
+  justify-content: flex-end;
+  
+  font-size: 2.3rem;
+}
+
+.nav-links{
+  display:flex;
+  margin:0 2;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 1.7rem;
+}
+
+
+li{
+  list-style: none;
+}
+
+
+.page-links{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+
+}
+
+
+section{
+  color: white;
+}
+
+.hamburger {
+  color:white;
+  font-size: 3rem;
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+.logo-container p{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-container {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  
+}
